@@ -1,0 +1,35 @@
+@media screen and (min-width: 1024px) {
+    article {
+        max-width: 750px;
+        padding-top: 5.4%;
+        padding-bottom: 5.4%;
+    }
+
+    article #images-container {
+        /* width: 50%; */
+        /* height: 50vh; */
+        /* margin-top: 0%; */
+        flex-direction: unset;
+        background-image: url(../images/bg-pattern-desktop.svg);
+        background-size: 100% 130%;
+        background-repeat: no-repeat;
+        padding-top: 20%;
+      }
+    
+      article #images-container #img1 {
+        display: none;
+      }
+    
+      article #images-container #img2 {
+        /* margin-top: 0%; */
+        margin-left: -14%;
+        width: 96%;
+      }
+
+    article h2#sec-title {
+        padding-bottom: 4%;
+    }
+    article ul#questions-container {
+        padding-right: 10%;
+    }
+}

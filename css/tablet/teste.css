@@ -1,0 +1,11 @@
+/* article {
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+
+article#at2 {
+    width: 500px;
+    height: 300px;
+    background-color: red; background-image: url(bg-pattern-desktop.svg);
+}   
